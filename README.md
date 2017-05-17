@@ -31,6 +31,7 @@ cmake -D CMAKE_BUILD_TYPE=Release
 
 
 Make
+
 Make install
 
 
