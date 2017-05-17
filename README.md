@@ -11,6 +11,7 @@ Install requirement
 [optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 [Pull code]
+
 cd ~/<my_working_directory>
 git clone https://github.com/opencv/opencv.git
 git clone https://github.com/opencv/opencv_contrib.git
@@ -22,6 +23,7 @@ mkdir build
 cd build
 
 [support dnn]
+
 cmake -D CMAKE_BUILD_TYPE=Release 
 -DOPENCV_EXTRA_MODULES_PATH=<opencv_contrib>/modules 
 -D BUILD_opencv_dnn=ON
