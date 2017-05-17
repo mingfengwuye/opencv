@@ -36,6 +36,7 @@ Make install
 
 
 Running tests
+
 git clone https://github.com/opencv/opencv_extra.git
 
 set OPENCV_TEST_DATA_PATH environment variable to <path to opencv_extra/testdata>
